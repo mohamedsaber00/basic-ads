@@ -12,6 +12,7 @@ package app.lexilabs.basic.ads
  * @see INTERSTITIAL_DEFAULT Default AdUnitId for Interstitial ads.
  * @see REWARDED_INTERSTITIAL_DEFAULT Default AdUnitId for Rewarded Interstitial ads.
  * @see REWARDED_DEFAULT Default AdUnitId for Rewarded ads.
+ * @see NATIVE_DEFAULT Default AdUnitId for Native ads.
  */
 @Suppress("unused")
 public expect object AdUnitId {
@@ -27,4 +28,5 @@ public expect object AdUnitId {
     public val INTERSTITIAL_DEFAULT: String
     public val REWARDED_INTERSTITIAL_DEFAULT: String
     public val REWARDED_DEFAULT: String
+    public val NATIVE_DEFAULT: String
 }
